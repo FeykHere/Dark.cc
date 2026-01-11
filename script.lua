@@ -848,7 +848,7 @@ local Tabs = {
 
 -- Home Tab
 local HomeGroupBox = Tabs.Home:AddLeftGroupbox("Welcome", "home")
-HomeGroupBox:AddLabel("Dark.cc Enhanced Edition", true)
+HomeGroupBox:AddLabel("Dark.cc | Universal BETA", true)
 HomeGroupBox:AddLabel("Join our Discord for more scripts", true)
 
 HomeGroupBox:AddButton({
@@ -865,14 +865,9 @@ HomeGroupBox:AddButton({
     end,
 })
 
-local HomeGroupBox2 = Tabs.Home:AddRightGroupbox("Features", "list")
-HomeGroupBox2:AddLabel("✓ Advanced Aimbot & Trigger Bot", true)
-HomeGroupBox2:AddLabel("✓ Hitbox Expander", true)
-HomeGroupBox2:AddLabel("✓ Full ESP System", true)
-HomeGroupBox2:AddLabel("✓ Player Management", true)
-HomeGroupBox2:AddLabel("✓ CFrame Fly & Movement", true)
-HomeGroupBox2:AddLabel("✓ World Modifications", true)
-HomeGroupBox2:AddLabel("✓ Client Customization", true)
+local HomeGroupBox2 = Tabs.Home:AddRightGroupbox("Credits")
+HomeGroupBox2:AddLabel("Feyk — Lead Developer & Founder", true)
+HomeGroupBox2:AddLabel("Dark — Ideas & Suggestions", true)
 
 -- Combat Tab - Aimbot
 local CombatGroupBox = Tabs.Combat:AddLeftGroupbox("Aimbot", "crosshair")
