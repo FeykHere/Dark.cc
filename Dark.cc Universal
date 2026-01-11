@@ -239,7 +239,7 @@ HomeTab:CreateButton({
     Name = "Copy Discord Link",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/yeKPEZpMMu")
+            setclipboard("https://discord.gg/jKw4DuNx5r")
             Rayfield:Notify({
                 Title = "Dark.cc",
                 Content = "Discord link copied!",
