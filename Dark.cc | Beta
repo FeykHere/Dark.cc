@@ -855,7 +855,7 @@ HomeGroupBox:AddButton({
     Text = "Copy Discord Link",
     Func = function()
         if setclipboard then
-            setclipboard("https://discord.gg/yeKPEZpMMu")
+            setclipboard("https://discord.gg/jKw4DuNx5r")
             Library:Notify({
                 Title = "Dark.cc",
                 Description = "Discord link copied! ",
